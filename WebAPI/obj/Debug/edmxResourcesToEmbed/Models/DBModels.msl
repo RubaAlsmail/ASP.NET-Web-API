@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TVshowDBModelStoreContainer" CdmEntityContainer="DBModel">
+    <EntitySetMapping Name="TVshow">
+      <EntityTypeMapping TypeName="TVshowDBModel.TVshow">
+        <MappingFragment StoreEntitySet="TVshow">
+          <ScalarProperty Name="ShowID" ColumnName="ShowID" />
+          <ScalarProperty Name="Showname" ColumnName="Showname" />
+          <ScalarProperty Name="Genre" ColumnName="Genre" />
+          <ScalarProperty Name="SeasonNum" ColumnName="SeasonNum" />
+          <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
